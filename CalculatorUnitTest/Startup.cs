@@ -43,6 +43,10 @@ namespace CalculatorUnitTest
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            //URL TUTORIAL
+            //https://www.c-sharpcorner.com/article/unit-testicode-coverage/
+            //https://www.c-sharpcorner.com/article/moq-mocking-framework-with-xunit-net-testing-fr/
         }
     }
 }
