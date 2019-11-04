@@ -4,9 +4,11 @@ using System.Text;
 
 namespace CalculatorLib
 {
-    public class Calculator : ICalculator
+    public abstract class Calculator : ICalculator
     {
-        public decimal Add(decimal x, decimal y)
+        public abstract void some_function();
+
+        public virtual decimal Add(decimal x, decimal y)
         {
             if (x == 0 && y == 0)
             {
